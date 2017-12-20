@@ -1,0 +1,120 @@
+
+/* ========== SECTION 1 - content animation ========== */
+.section-two {
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
+.section-two > .fp-tableCell h2 {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .5s ease-in-out;
+  background-image: url('http://www.disneystore.co.uk/on/demandware.static/-/Sites-disneyuk-Library/default/dwa0cadff1/img/ui-icons/disney-logo.svg');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: 600px;
+  margin-top: 200px;
+  left: 0;
+  right: 0;
+}
+
+.section-two.active > .fp-tableCell h2 {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.section-two > .fp-tableCell .img1,
+.section-two > .fp-tableCell .img2,
+.section-two > .fp-tableCell .img3,
+.section-two > .fp-tableCell .img4 {
+	transform: translateX(50%);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity 0.5s ease-in-out;
+}
+
+.section-two > .fp-tableCell .img1{
+  transform: translateX(0) translateY(0);
+	transform: translateY(-500px);
+  background-image: url('http://wallpaper.pickywallpapers.com/2560x1600/minimal-digital-rain.jpg');
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  float: left;
+  margin-top: 100px;
+}
+
+.section-two > .fp-tableCell .img2{
+  transform: translateX(0) translateY(0);
+	transform: translateY(500px);
+  background-image: url('https://i.imgur.com/bIy3l7l.jpg');
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  float: left;
+}
+
+.section-two > .fp-tableCell .img3 {
+	transform: translateX(0) translateY(0);
+	transform: translateY(-500px);
+  background-image: url('http://www.global-nomad.co/567-thickbox_default/vase-minimal-glass.jpg');
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  float: left;
+  margin-top: 150px;
+}
+
+.section-two > .fp-tableCell .img4{
+	transform: translateX(0) translateY(0);
+	transform: translateY(500px);
+  background-image: url('http://wallpaper.pickywallpapers.com/1920x1080/minimal-flying-paper-plane.jpg');
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  float: left;
+  margin-top: 50px;
+}
+
+.section-two.active > .fp-tableCell .img1,
+.section-two.active > .fp-tableCell .img2,
+.section-two.active > .fp-tableCell .img3,
+.section-two.active > .fp-tableCell .img4 {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.section-two.active > .fp-tableCell .img1 {
+	transition-delay: .2s;
+}
+
+.section-two.active > .fp-tableCell .img2 {
+	transition-delay: .4s;
+}
+
+.section-two.active > .fp-tableCell .img3 {
+	transition-delay: .6s;
+}
+
+.section-two.active > .fp-tableCell .img4 {
+	transition-delay: .8s;
+}
