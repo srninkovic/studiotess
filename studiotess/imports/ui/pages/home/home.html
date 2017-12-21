@@ -1,12 +1,31 @@
 <template name="App_home">
-  <div class="homemenu">
-    <div class="homemenu__left left">
-      <a href="#">Reparaties</a>
+  <div id="wrapper">
+    <script>
+    $(document).ready(function(){
+
+	$('#nav-icon').click(function(){
+		$(this).toggleClass('open');
+    $('.fullscreen-nav').toggleClass('open');
+	});
+});
+
+    </script>
+      <nav class="fullscreen-nav">
+        <ul class="main-menu">
+          <a href="#"><li><h1 class="nav-link">REPARATIE</h1></li></a>
+          <a href="#"><li><h1 class="nav-link">COLLECTIE</h1></li></a>
+          <a href="#"><li><h1 class="nav-link"> ... </h1></li></a>
+          <a href="#"><li><h1 class="nav-link">CONTACT</h1></li></a>
+        </ul>
+      </nav>
+
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <h1>menu</h1>
+      </div>
     </div>
-    <div class="homemenu__right right">
-      <a href="#">Contact</a>
-    </div>
-  </div>
   <section id="fullpage">
     <div class="section section-one container">
       <div class="img1"></div>
@@ -15,21 +34,23 @@
       <div class="img4"></div>
       <h2></h2>
 		</div>
-		<div class="section section-two container">
+		<div class="section section-two container response">
+      <a href="">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+        <div class="img4"></div>
+        <h2></h2>
+      </a>
+		</div>
+		<div class="section section-three container response">
       <div class="img1"></div>
       <div class="img2"></div>
       <div class="img3"></div>
       <div class="img4"></div>
       <h2></h2>
 		</div>
-		<div class="section section-three container">
-      <div class="img1"></div>
-      <div class="img2"></div>
-      <div class="img3"></div>
-      <div class="img4"></div>
-      <h2></h2>
-		</div>
-    <div class="section section-four container">
+    <div class="section section-four container response">
       <div class="img1"></div>
       <div class="img2"></div>
       <div class="img3"></div>
