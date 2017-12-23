@@ -12,7 +12,7 @@ Template.App_home.rendered = function() {
 		easing: 'easeInOutCubic',
 		easingcss3: 'ease',
 		loopHorizontal: true,
-		continuousVertical: true,
+		continuousVertical: false,
 		touchSensitivity: 50,
 		normalScrollElementTouchThreshold: 5,
 		bigSectionsDestination: null,
