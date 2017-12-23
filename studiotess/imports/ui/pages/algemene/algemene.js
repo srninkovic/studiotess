@@ -1,0 +1,1 @@
+import './algemene.html';

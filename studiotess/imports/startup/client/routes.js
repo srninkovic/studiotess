@@ -7,7 +7,11 @@ import '../../ui/pages/home/home.js';
 import '../../ui/pages/not-found/not-found.js';
 import '../../ui/pages/reparaties/rep.js';
 import '../../ui/pages/contact/contact.js';
-import '../../ui/pages/collectie/collectie.js';
+import '../../ui/pages/sustainfashion/sustainfashion.js';
+// import '../../ui/pages/accessoires/accessoires.js';
+// import '../../ui/pages/algemene/algemene.js';
+// import '../../ui/pages/prijzen/prijzen.js';
+// import '../../ui/pages/cursus/cursus.js';
 
 // Set up all routes in the app
 FlowRouter.route('/', {
@@ -31,10 +35,38 @@ FlowRouter.route('/contact', {
   },
 });
 
-FlowRouter.route('/collectie', {
+FlowRouter.route('/sustainable-fashion', {
   name: 'App.coll',
   action() {
     BlazeLayout.render('App_body', { main: 'App_coll' });
+  },
+});
+
+FlowRouter.route('/accessoires', {
+  name: 'App.acc',
+  action() {
+    BlazeLayout.render('App_body', { main: 'App_acc' });
+  },
+});
+
+FlowRouter.route('/algemenevoorwaarden', {
+  name: 'App.alg',
+  action() {
+    BlazeLayout.render('App_body', { main: 'App_alg' });
+  },
+});
+
+FlowRouter.route('/prijzenlijst', {
+  name: 'App.prijs',
+  action() {
+    BlazeLayout.render('App_body', { main: 'App_prijs' });
+  },
+});
+
+FlowRouter.route('/cursus', {
+  name: 'App.curs',
+  action() {
+    BlazeLayout.render('App_body', { main: 'App_curs' });
   },
 });
 
