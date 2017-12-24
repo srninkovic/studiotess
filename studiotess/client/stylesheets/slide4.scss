@@ -1,11 +1,9 @@
 
 /* ========== SECTION 1 - content animation ========== */
 .section-four {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 350px;
-  right: 0;
+  background-image: url('../img/homeb2.png');
+  background-position: center;
+  padding-left: 29%;
 }
 
 .section-four > .fp-tableCell h2 {
@@ -13,19 +11,14 @@
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .5s ease-in-out;
-  background-image: url('http://www.disneystore.co.uk/on/demandware.static/-/Sites-disneyuk-Library/default/dwa0cadff1/img/ui-icons/disney-logo.svg');
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
-  margin-left: -200px;
+  margin-left: 250px;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 300px;
   left: 0;
   right: 0;
+  font-size: 5em;
+  color: #b078ed;
 }
 
 .section-four.active > .fp-tableCell h2 {
@@ -37,6 +30,7 @@
 .section-four > .fp-tableCell .img2,
 .section-four > .fp-tableCell .img3,
 .section-four > .fp-tableCell .img4 {
+
 	transform: translateX(50%);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
@@ -46,7 +40,9 @@
 .section-four > .fp-tableCell .img1{
   transform: translateX(0) translateY(0);
 	transform: translateY(-500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/2560x1600/minimal-digital-rain.jpg');
+  background-image: url('../../img/Leerringen/pinsbw2.jpg');
+  background-size: 400px;
+  background-position: 20% 0%;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -54,26 +50,16 @@
   object-position: 50% 50%;
   object-position: 0 0;
   float: left;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .section-four > .fp-tableCell .img2{
   transform: translateX(0) translateY(0);
 	transform: translateY(500px);
-  background-image: url('https://i.imgur.com/bIy3l7l.jpg');
-  background-repeat: no-repeat;
-  height: 60%;
-  width: 15%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
-  float: left;
-}
 
-.section-four > .fp-tableCell .img3 {
-	transform: translateX(0) translateY(0);
-	transform: translateY(-500px);
-  background-image: url('http://www.global-nomad.co/567-thickbox_default/vase-minimal-glass.jpg');
+    background-image: url('../../img/Waistbelt/waistbandrood.jpg');
+  // background-size: 00px;
+  background-position: 50% 60%;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -84,10 +70,28 @@
   margin-top: 150px;
 }
 
+.section-four > .fp-tableCell .img3 {
+	transform: translateX(0) translateY(0);
+	transform: translateY(-500px);
+  background-image: url('../../img/Leerringen/ringen.jpg');
+  background-size: 400px;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 70%;
+  object-position: 0 0;
+  float: left;
+  margin-top: 250px;
+}
+
 .section-four > .fp-tableCell .img4{
 	transform: translateX(0) translateY(0);
 	transform: translateY(500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/1920x1080/minimal-flying-paper-plane.jpg');
+    background-image: url('../../img/Etuidone/zwartetuidetail.jpg');
+  background-size: 400px;
+  background-position: 30% 100%;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -95,7 +99,7 @@
   object-position: 50% 50%;
   object-position: 0 0;
   float: left;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .section-four.active > .fp-tableCell .img1,

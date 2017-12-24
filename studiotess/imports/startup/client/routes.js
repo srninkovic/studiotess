@@ -8,10 +8,10 @@ import '../../ui/pages/not-found/not-found.js';
 import '../../ui/pages/reparaties/rep.js';
 import '../../ui/pages/contact/contact.js';
 import '../../ui/pages/sustainfashion/sustainfashion.js';
-// import '../../ui/pages/accessoires/accessoires.js';
-// import '../../ui/pages/algemene/algemene.js';
-// import '../../ui/pages/prijzen/prijzen.js';
-// import '../../ui/pages/cursus/cursus.js';
+import '../../ui/pages/accessoires/accessoires.js';
+import '../../ui/pages/algemene/algemene.js';
+import '../../ui/pages/prijzen/prijzen.js';
+import '../../ui/pages/cursus/cursus.js';
 
 // Set up all routes in the app
 FlowRouter.route('/', {

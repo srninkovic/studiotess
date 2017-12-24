@@ -1,6 +1,7 @@
 
 .section-one {
-  margin-top: 100px;
+  background-image: url('../img/homeb.png');
+  background-position: center;
 }
 
 .section-one > .fp-tableCell h2 {
@@ -8,17 +9,15 @@
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .5s ease-in-out;
-  background-image: url('http://www.disneystore.co.uk/on/demandware.static/-/Sites-disneyuk-Library/default/dwa0cadff1/img/ui-icons/disney-logo.svg');
+  background-image: url('../img/studiotesslogowit.png');
   background-repeat: no-repeat;
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
+  background-size: 500px;
+  height: 400px;
+  width: 500px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 350px;
   left: 0;
   right: 0;
 }
@@ -32,6 +31,7 @@
 .section-one > .fp-tableCell .img2,
 .section-one > .fp-tableCell .img3,
 .section-one > .fp-tableCell .img4 {
+  margin-top: 200px;
 	transform: translateX(50%);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
@@ -40,13 +40,11 @@
 
 .section-one > .fp-tableCell .img1{
 	transform: translateX(1000px);
-  background-image: url('http://wallpaper.pickywallpapers.com/2560x1600/minimal-digital-rain.jpg');
-  background-repeat: no-repeat;
+  background-color: #c098ac;
+  border: 5px dashed #000;
+  background-size: 400px;
   height: 400px;
   width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -57,13 +55,11 @@
 
 .section-one > .fp-tableCell .img2{
 	transform: translateX(-1000px);
-  background-image: url('https://i.imgur.com/bIy3l7l.jpg');
-  background-repeat: no-repeat;
+  background-color:#d2bcfb;
+  background-size: 700px;
+  border: 5px dotted #000;
   height: 450px;
   width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -74,13 +70,11 @@
 .section-one > .fp-tableCell .img3 {
 	transform: translateX(0) translateY(0);
 	transform: translateY(-500px);
-  background-image: url('http://www.global-nomad.co/567-thickbox_default/vase-minimal-glass.jpg');
+  background-image: url('../../img/draad.png');
   background-repeat: no-repeat;
+  background-size: 400px;
   height: 400px;
   width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -92,13 +86,10 @@
 .section-one > .fp-tableCell .img4{
 	transform: translateX(0) translateY(0);
 	transform: translateY(500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/1920x1080/minimal-flying-paper-plane.jpg');
-  background-repeat: no-repeat;
+  background-color: #f5d2e3;
+  border: 5px solid #000;
   height: 350px;
   width: 350px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
   margin-left: auto;
   margin-left: auto;

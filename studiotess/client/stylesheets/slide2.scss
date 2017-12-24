@@ -1,11 +1,8 @@
-
-/* ========== SECTION 1 - content animation ========== */
 .section-two {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 350px;
-  right: 0;
+
+  background-image: url('../img/homeb2.png');
+  background-position: center;
+    padding-left: 29%;
 }
 
 .section-two > .fp-tableCell h2 {
@@ -13,17 +10,12 @@
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .5s ease-in-out;
-  background-image: url('http://www.disneystore.co.uk/on/demandware.static/-/Sites-disneyuk-Library/default/dwa0cadff1/img/ui-icons/disney-logo.svg');
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
+  font-size: 5em;
+  color: #b078ed;
   position: absolute;
-  margin-left: -200px;
+  margin-left: 200px;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 300px;
   left: 0;
   right: 0;
 }
@@ -37,6 +29,7 @@
 .section-two > .fp-tableCell .img2,
 .section-two > .fp-tableCell .img3,
 .section-two > .fp-tableCell .img4 {
+
 	transform: translateX(50%);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
@@ -46,7 +39,25 @@
 .section-two > .fp-tableCell .img1{
   transform: translateX(0) translateY(0);
 	transform: translateY(-500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/2560x1600/minimal-digital-rain.jpg');
+  background-image: url('../../img/FinishBowie/bowiehangend.jpg');
+  background-size: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 15%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  object-position: 0 0;
+  float: left;
+  margin-top: 200px;
+}
+
+.section-two > .fp-tableCell .img2{
+  transform: translateX(0) translateY(0);
+	transform: translateY(500px);
+  background-image: url('../../img/FinishPrince/princehangend.jpg');
+  background-size: 900px;
+  background-position: center;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -57,10 +68,12 @@
   margin-top: 100px;
 }
 
-.section-two > .fp-tableCell .img2{
-  transform: translateX(0) translateY(0);
-	transform: translateY(500px);
-  background-image: url('https://i.imgur.com/bIy3l7l.jpg');
+.section-two > .fp-tableCell .img3 {
+	transform: translateX(0) translateY(0);
+	transform: translateY(-500px);
+  background-image: url('../../img/FinishRollingstones/rollingstonesclose.jpg');
+  background-size: 500px;
+  background-position: center;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -68,12 +81,15 @@
   object-position: 50% 50%;
   object-position: 0 0;
   float: left;
+  margin-top: 250px;
 }
 
-.section-two > .fp-tableCell .img3 {
+.section-two > .fp-tableCell .img4{
 	transform: translateX(0) translateY(0);
-	transform: translateY(-500px);
-  background-image: url('http://www.global-nomad.co/567-thickbox_default/vase-minimal-glass.jpg');
+	transform: translateY(500px);
+  background-image: url('../../img/FinishBowie/bowiehangend.jpg');
+  background-size: 900px;
+  background-position: center;
   background-repeat: no-repeat;
   height: 60%;
   width: 15%;
@@ -82,20 +98,6 @@
   object-position: 0 0;
   float: left;
   margin-top: 150px;
-}
-
-.section-two > .fp-tableCell .img4{
-	transform: translateX(0) translateY(0);
-	transform: translateY(500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/1920x1080/minimal-flying-paper-plane.jpg');
-  background-repeat: no-repeat;
-  height: 60%;
-  width: 15%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
-  float: left;
-  margin-top: 50px;
 }
 
 .section-two.active > .fp-tableCell .img1,

@@ -1,3 +1,19 @@
+// @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+// @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny|Indie+Flower|Libre+Barcode+39+Extended+Text|Reenie+Beanie');
+
+h1, h2, h3 ,h4 ,h5 ,h6{
+  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  // font-family: 'Henny Penny', cursive;
+text-transform: Uppercase;
+}
+
+h2{
+  font-size: 4.5em !important;
+}
+
 .fp-tableCell{
   vertical-align: top !important;
 }

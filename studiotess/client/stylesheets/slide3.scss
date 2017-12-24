@@ -1,7 +1,8 @@
 
 /* ========== SECTION 1 - content animation ========== */
 .section-three {
-  margin-top: 100px;
+  background-image: url('../img/homeb.png');
+  background-position: center;
 }
 
 .section-three > .fp-tableCell h2 {
@@ -9,19 +10,11 @@
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .5s ease-in-out;
-  background-image: url('http://www.disneystore.co.uk/on/demandware.static/-/Sites-disneyuk-Library/default/dwa0cadff1/img/ui-icons/disney-logo.svg');
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  object-position: 0 0;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-  left: 0;
-  right: 0;
+  margin-left: 770px;
+  margin-top: 450px;
+  font-size: 5em;
+  color: #fff;
 }
 
 .section-three.active > .fp-tableCell h2 {
@@ -33,6 +26,7 @@
 .section-three > .fp-tableCell .img2,
 .section-three > .fp-tableCell .img3,
 .section-three > .fp-tableCell .img4 {
+  margin-top: 200px;
 	transform: translateX(50%);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
@@ -41,7 +35,8 @@
 
 .section-three > .fp-tableCell .img1{
 	transform: translateX(1000px);
-  background-image: url('http://wallpaper.pickywallpapers.com/2560x1600/minimal-digital-rain.jpg');
+  background-color: #f1bfd7;
+  border: 5px double #000;
   background-repeat: no-repeat;
   height: 400px;
   width: 400px;
@@ -58,7 +53,8 @@
 
 .section-three > .fp-tableCell .img2{
 	transform: translateX(-1000px);
-  background-image: url('https://i.imgur.com/bIy3l7l.jpg');
+  background: #c7acfb;
+    border: 5px dotted #000;
   background-repeat: no-repeat;
   height: 450px;
   width: 400px;
@@ -68,14 +64,15 @@
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 400px;
+  left: 450px;
   right: 0;
 }
 
 .section-three > .fp-tableCell .img3 {
 	transform: translateX(0) translateY(0);
 	transform: translateY(-500px);
-  background-image: url('http://www.global-nomad.co/567-thickbox_default/vase-minimal-glass.jpg');
+  background-image: url('../../img/Maat-reparatiewerk/scheur voor en na.jpg');
+  background-position: 30% 50%;
   background-repeat: no-repeat;
   height: 400px;
   width: 400px;
@@ -93,7 +90,9 @@
 .section-three > .fp-tableCell .img4{
 	transform: translateX(0) translateY(0);
 	transform: translateY(500px);
-  background-image: url('http://wallpaper.pickywallpapers.com/1920x1080/minimal-flying-paper-plane.jpg');
+  background-image: url('../../img/Maat-reparatiewerk/18471770_1296660150387122_64327075_o.jpg');
+  background-size: 700px;
+  background-position: 10% 20%;
   background-repeat: no-repeat;
   height: 350px;
   width: 350px;
