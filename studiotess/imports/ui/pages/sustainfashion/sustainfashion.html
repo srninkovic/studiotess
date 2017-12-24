@@ -1,2 +1,64 @@
 <template name="App_coll">
+  <script>
+    function openNav() {
+        document.getElementById("myNav").style.display = "block";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+    }
+  </script>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/sustainable-fashion">Sustainable fashion</a>
+      <a href="/reparaties">Reparaties</a>
+      <a href="/accessoires">Accessoires</a>
+      <a href="/contact">Contact</a>
+      <a href="/cursus">Cursus</a>
+      <a href="/prijzenlijst">Prijzenlijst</a>
+      <a href="/algemenevoorwaarden">Algemene voorwaarden</a>
+    </div>
+  </div>
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
+  <div class="container-fluid sustainfashion">
+    <div class="row title">
+      <h1>Sustainable Fashion</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6 image">
+        <img src="../../img/FinishBowie/bowiehangend.jpg" alt="david bowie jas hangend"/>
+      </div>
+      <div class="col-md-6 txt">
+        <p>
+          Klimaatverandering is een onderwerp dat haar erg bezighoud. In haar eigen kledingstukken verwerkt ze daarom gerecycled materiaal. Daarnaast gunt ze oude kledingstukken een nieuw leven.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 image2">
+        <img src="../../img/FinishRollingstones/rollingstoneshangend.jpg" alt="Rolling stones jas hangend" />
+      </div>
+      <div class="col-md-4 image2">
+        <img src="../../img/FinishRollingstones/rollingstonesclose.jpg" alt="Rolling stones jas close" />
+      </div>
+      <div class="col-md-4 image2">
+        <img src="../../img/FinishRollingstones/rollingstonesgeheel.jpg" alt="Rolling stones jas heel" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 txt">
+        <p>
+          Een aantal voorbeelden zijn het beschilderen van oude leren jassen en het hergebruiken van delen van kleding, om er weer één nieuw kledingstuk van te maken.
+        </p>
+      </div>
+      <div class="col-md-6 image">
+        <img src="../../img/FinishPrince/princehangend.jpg" alt="prince jas hangend" />
+      </div>
+    </div>
+    <div class="row" style="background: url('../../img/pattern.png')">
+    </div>
+    <div class="row link">
+      <a href="/accessoires">> Ga naar collectie accessoires</a>
+    </div>
+  </div>
 </template>

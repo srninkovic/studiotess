@@ -1,0 +1,56 @@
+.sustainfashion{
+    margin-top: 7em;
+    .title{
+      text-align: center;
+      h1{
+        font-size: 5em;
+      }
+    }
+
+    p{
+      font-size: 1.5em;
+      padding: 400px 50px 0px 50px;
+      vertical-align: middle;
+      text-align: left;
+
+      @media screen and (max-width: 1300px){
+        border: 3em solid white;
+        padding-top: 200px;
+      }
+      @media screen and (max-width: 590px){
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
+      }
+    }
+
+    .link{
+      background: url('../../img/pattern.png');
+      text-align: center;
+      padding: 5em 0;
+      a{
+        color: black;
+        font-size: 2.5em;
+      }
+    }
+
+
+    .image{
+      border: 7em solid white;
+      img{
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+      }
+
+      @media screen and (max-width: 590px){
+        border: 2em solid white;
+      }
+    }
+
+    .image2{
+      img{
+        width: 100%;
+      }
+    }
+}

@@ -1,1 +1,1 @@
-import './sustainfashion.js';
+import './sustainfashion.html';
